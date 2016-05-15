@@ -49,7 +49,10 @@ public class PowerProfileSettings extends SettingsPreferenceFragment implements 
 
     @Override
     protected int getMetricsCategory() {
+	/*
         return MetricsLogger.OMNI_SETTINGS;
+*/
+	return 0;
     }
 
     @Override

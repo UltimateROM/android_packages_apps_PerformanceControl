@@ -97,7 +97,10 @@ public class PowerProfileApps extends SettingsPreferenceFragment implements
 
     @Override
     protected int getMetricsCategory() {
+	return 0;
+/*
         return MetricsLogger.OMNI_SETTINGS;
+*/
     }
 
     @Override
